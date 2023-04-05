@@ -1,0 +1,30 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #dce0e3;
+}
+.container{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px
+}
+.container .form-group input[type=text]{
+    border-style: none none solid none;
+    border-radius: unset;
+}
+span{
+    color:  red;
+}
+.container form .form-group .dropdown button{
+    border: 1px solid gray;
+}
+#submit{
+    background-color: #6c7980;
+    border: unset;
+    border-radius: 3px;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 130px;
+}
